@@ -1,0 +1,12 @@
+meme_dict = {
+            "CRINGE": "Sesuatu yang sangat aneh atau memalukan",
+            "LOL": "Tanggapan umum terhadap sesuatu yang lucu",
+            "AKWARD": "Canggung Atau Tidak nyaman",
+            "AKF": "Menjauh Dari Keyboard",
+            "BRB": "Segera Kembali"
+            }
+word = input("Ketik kata yang tidak Kamu mengerti (): ").upper()
+if word in meme_dict.keys():
+    print(' makna kata', word, 'adalah', meme_dict[word])      
+else:
+     print(' makna kata', word, 'tidak ditemukan',)
